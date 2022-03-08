@@ -1,0 +1,57 @@
+.container {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result {
+  margin-top: 10px;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+}
+
+.result h3 {
+  color: #222;
+}
+
+.result p {
+  color: #222;
+}
+
+.flight-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid #222;
+  background-color: rgb(250, 235, 235);
+  color: #222;
+}
+
+.date-time {
+  flex: 2;
+}
+.passenger-info {
+  flex: 2;
+}
+.price-info,
+.hotel-details-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.photos {
+  width: 50%;
+}
+
+.hotel-images {
+  text-align: center;
+}
